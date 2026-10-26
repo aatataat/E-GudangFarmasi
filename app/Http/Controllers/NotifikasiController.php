@@ -10,7 +10,7 @@ use Carbon\Carbon;
 
 class NotifikasiController extends Controller
 {
-    protected $telegramToken = "8270166224:AAG_BI-8x_3rK-wSdr8_VDg-U8PPrmnfELI";
+    protected $telegramToken = ""; // Isi dengan token bot Telegram Anda
 
     public function cekDanKirimNotifikasi()
     {
