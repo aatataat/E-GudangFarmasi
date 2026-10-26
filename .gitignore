@@ -1,0 +1,44 @@
+# === File Lingkungan & Sensitif (JANGAN DI-COMMIT) ===
+.env
+.env.backup
+.env.production
+auth.json
+*.key
+
+# === Dependensi & Folder Build ===
+/vendor/
+/node_modules/
+/public/build/
+/public/hot/
+/public/storage/
+/storage/pail/
+
+# === Cache & Log ===
+*.log
+npm-debug.log
+yarn-error.log
+.phpunit.result.cache
+/.phpunit.cache
+
+# === Konfigurasi IDE / Editor Text ===
+.phpactor.json
+/.fleet/
+/.idea/
+/.nova/
+/.vscode/
+/.zed/
+
+# === File Sistem Operasi ===
+.DS_Store
+Thumbs.db
+
+# === Vagrant & Homestead ===
+Homestead.json
+Homestead.yaml
+/.vagrant/
+
+# === Kompatibilitas Laravel Versi Lama (Opsional) ===
+bootstrap/compiled.php
+app/storage/
+public_html/storage/
+public_html/hot/
